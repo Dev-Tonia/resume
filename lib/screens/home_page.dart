@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../widgets/customized_appbar.dart';
 import '../widgets/icon_card.dart';
+import 'about_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -16,7 +17,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    var currentIndex = 0;
     return Scaffold(
       backgroundColor: const Color(0xffF7F7F7),
       appBar: const CustomAppBar(
@@ -30,14 +30,32 @@ class _HomePageState extends State<HomePage> {
         ),
         child: Column(
           children: [
-            const CircleAvatar(
-              radius: 100,
+            Container(
+              width: 200,
+              height: 200,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0xffAA81F3),
+                    blurRadius: 25.0,
+                  ),
+                ],
+                color: Colors.white,
+              ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  'lib/images/profile.jpg',
+                  fit: BoxFit.fitWidth,
+                ),
+              ),
             ),
             const SizedBox(
               height: 30,
             ),
             Text(
-              'Ogunwa Anthonia Chinasa',
+              ' Anthonia Chinasa, Ogunwa',
               textAlign: TextAlign.center,
               style: GoogleFonts.poppins(
                 fontSize: 32.5,
@@ -126,42 +144,6 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      bottomNavigationBar: navBar(currentIndex),
-    );
-  }
-
-  BottomNavigationBar navBar(int currentIndex) {
-    return BottomNavigationBar(
-      backgroundColor: const Color(0x80F0BB31),
-      selectedItemColor: const Color(0xffAA81F3),
-      unselectedItemColor: Colors.white,
-      type: BottomNavigationBarType.fixed,
-      currentIndex: currentIndex,
-      onTap: (index) {
-        setState(() {
-          currentIndex = index;
-        });
-      },
-      items: const [
-        BottomNavigationBarItem(
-          icon: Icon(Icons.home),
-          label: '',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.favorite),
-          label: '',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.person_outlined),
-          label: '',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(
-            Icons.history,
-          ),
-          label: '',
-        )
-      ],
     );
   }
 }

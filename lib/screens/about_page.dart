@@ -26,7 +26,17 @@ class AboutPage extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: GoogleFonts.poppins(
                       fontSize: 34,
-                      color: const Color(0xffAA81F3),
+                      foreground: Paint()
+                        ..shader = const LinearGradient(
+                          colors: <Color>[
+                            Color(0xffF0BB31),
+                            Color(0xffAA81F3),
+
+                            //add more color here.
+                          ],
+                        ).createShader(
+                          const Rect.fromLTWH(0.0, 0.0, 400.0, 50),
+                        ),
                       height: 1.5,
                       fontWeight: FontWeight.w700,
                     ),
@@ -73,7 +83,7 @@ class AboutPage extends StatelessWidget {
                         height: 20,
                       ),
                       Text(
-                        'Currently in the on going HNG internship.',
+                        'Currently undergoing internship Hotel NG (HNG).',
                         style: GoogleFonts.poppins(
                           fontSize: 18,
                           fontWeight: FontWeight.w500,
