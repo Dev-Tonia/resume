@@ -1,4 +1,4 @@
-**# Resume**
+# **Resume**
 **Resume** is a portfolio app that contains information about me and some projects I've worked on
 
 ## Features
@@ -8,7 +8,7 @@ A bottom navgivation bar
 ### Tech Stack
 Technology Flutter, Dart
 
-Libraries
+### Libraries
 
   font_awesome_flutter: i used for social media icons, as its is predefine in it.
 
