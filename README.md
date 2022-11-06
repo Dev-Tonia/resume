@@ -1,11 +1,11 @@
-**#Resume**
+**# Resume**
 **Resume** is a portfolio app that contains information about me and some projects I've worked on
 
-##Features
+## Features
 The app has 3 screen.
 A bottom navgivation bar
 
-###Tech Stack
+### Tech Stack
 Technology Flutter, Dart
 
 Libraries
@@ -17,11 +17,11 @@ Libraries
   video_player: It's used for playing video clips in flutter, I didn't used it again. I wanted to add some of the ui i have work with but time was against me.
 
 
-##Design Description
+### Design Description
 The design is only on portrait mode, 
 On lunching the app, the home screen is dispalyed.
 
-###Feature would like to add ...
+### Feature would like to add ...
 I would have love to implement the dark and light mode and also the localization.
 Work on the splash screen. 
 Add the navigation drawer, 
@@ -33,11 +33,11 @@ Add languages such as Hausa, Igbo, and Yoruba in L10n.
 Try to come up with a page for work experience
 
 Link to APK file
-{_Click to download from drive_] (https://drive.google.com/drive/u/0/my-drive)
-###Link to appetize
+Click to download from _[drive]_ (https://drive.google.com/drive/u/0/my-drive)
+### Link to appetize
 click on the link below to view the app on appetize
-[_appetize_] (https://bit.ly/3A9ZxDx)
-###Challenges
+_[appetize]_ (https://bit.ly/3A9ZxDx)
+### Challenges
  *My major Challenges was that my hard disk broke down on Thursday night, I had to buy another, I was able to fix it on Staruday moring. 
  *Coming up with what to submit under 10hrs is one of the biggest ride i have embark on.
 
@@ -46,7 +46,7 @@ The other boss challenge is juggling the tasks with other commitments (❁´◡`
 Run Locally
 Clone the project
 
-  [_git clone-_] (https://github.com/Dev-Tonia/resume.git)
+  _git clone-_ (https://github.com/Dev-Tonia/resume.git)
 Go to the project directory
 
   `cd resume`
