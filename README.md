@@ -28,15 +28,12 @@ Add the navigation drawer,
 Add a link where one can easily download my cv.
 Add video files to my existing ui's.
 
-Add languages such as Hausa, Igbo, and Yoruba in L10n.
-
-Try to come up with a page for work experience
 
 Link to APK file
-Click to download from _[ drive ]_ ( https://drive.google.com/file/d/1F8o1q3B1Ukwlx_P0F11WaJqvR2xC0xoD/view?usp=share_link "gogle drive")
+Click to download from [_drive_](https://drive.google.com/file/d/1F8o1q3B1Ukwlx_P0F11WaJqvR2xC0xoD/view?usp=share_link "gogle drive")
 ### Link to appetize
 click on the link below to view the app on appetize
-_[ appetize ]_ ( https://bit.ly/3A9ZxDx "appetize")
+[_appetize_](https://bit.ly/3A9ZxDx "appetize")
 ### Challenges
  *My major Challenges was that my hard disk broke down on Thursday night, I had to buy another, I was able to fix it on Staruday moring. 
  *Coming up with what to submit under 10hrs is one of the biggest ride i have embark on.
