@@ -1,16 +1,59 @@
-# resume
+**#Resume**
+**Resume** is a portfolio app that contains information about me and some projects I've worked on
 
-A new Flutter project.
+##Features
+The app has 3 screen.
+A bottom navgivation bar
 
-## Getting Started
+###Tech Stack
+Technology Flutter, Dart
 
-This project is a starting point for a Flutter application.
+Libraries
 
-A few resources to get you started if this is your first Flutter project:
+  font_awesome_flutter: i used for social media icons, as its is predefine in it.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  google_fonts: It helped me to use google fonts in an easy way.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  video_player: It's used for playing video clips in flutter, I didn't used it again. I wanted to add some of the ui i have work with but time was against me.
+
+
+##Design Description
+The design is only on portrait mode, 
+On lunching the app, the home screen is dispalyed.
+
+###Feature would like to add ...
+I would have love to implement the dark and light mode and also the localization.
+Work on the splash screen. 
+Add the navigation drawer, 
+Add a link where one can easily download my cv.
+Add video files to my existing ui's.
+
+Add languages such as Hausa, Igbo, and Yoruba in L10n.
+
+Try to come up with a page for work experience
+
+Link to APK file
+{_Click to download from drive_] (https://drive.google.com/drive/u/0/my-drive)
+###Link to appetize
+click on the link below to view the app on appetize
+[_appetize_] (https://bit.ly/3A9ZxDx)
+###Challenges
+ *My major Challenges was that my hard disk broke down on Thursday night, I had to buy another, I was able to fix it on Staruday moring. 
+ *Coming up with what to submit under 10hrs is one of the biggest ride i have embark on.
+
+The other boss challenge is juggling the tasks with other commitments (❁´◡`❁).
+
+Run Locally
+Clone the project
+
+  [_git clone-_] (https://github.com/Dev-Tonia/resume.git)
+Go to the project directory
+
+  `cd resume`
+Install dependencies
+
+  `flutter pub get`
+Run project
+
+  cd run
+Demo
